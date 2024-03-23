@@ -2,14 +2,14 @@
 
 const Compare = () => {
   const companyInfoList = [
-    ["項目A","×","〇","◎"],
-    ["項目B","〇","△","◎"],
-    ["項目C","△","×","〇"],
-    ["項目D","×","〇","◎"],
+    ["気軽さ","×","〇","◎"],
+    ["信頼度","〇","△","◎"],
+    ["進路","△","×","〇"],
+    ["アピール性","×","〇","◎"],
   ]
 
   return (
-    <div>
+    <div className="mb-12">
       <div className="container">
         {/* pre-heading */}
         <div className="w-max">
