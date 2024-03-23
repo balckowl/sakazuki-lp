@@ -3,24 +3,44 @@
 const Howto = () => {
   return (
     <div>
-      {/* pre-heading */}
-      <h4>導入方法</h4>
+      <div className="container">
+        {/* pre-heading */}
+        <div className="w-max">
+          <h3 className="mb-[2px] text-xl">導入方法</h3>
+          <div className="flex items-center w-full mb-12">
+            <div className="h-[4px] bg-[#1e4593] w-[18px]"></div>
+            <div className="h-[4px] bg-[#69c2ec] flex-grow"></div>
+          </div>
+        </div>
 
-      <div className="max-w-screen-lg mx-auto">
-      <div className="flex justify-between items-center mb-8">
-        <div className="text-lg font-semibold">Step 1: 準備</div>
-        <img src="/images/step1_image.png" alt="Step 1" className="w-32 h-auto" />
+        <ol className="flex flex-col gap-4 w-full space-y-4 sm:space-y-0 rtl:space-x-reverse mb-12">
+          <li className="flex items-center dark:text-gray-400 space-x-2.5 rtl:space-x-reverse">
+            <span className="flex items-center justify-center w-8 h-8 border border-gray-500 rounded-full shrink-0 dark:border-gray-400">
+              1
+            </span>
+            <span>
+              <h5 className="font-medium leading-tight">フォームを送る</h5>
+            </span>
+          </li>
+          <p>aaa</p>
+          <li className="flex items-center dark:text-gray-400 space-x-2.5 rtl:space-x-reverse">
+            <span className="flex items-center justify-center w-8 h-8 border border-gray-500 rounded-full shrink-0 dark:border-gray-400">
+              2
+            </span>
+            <span>
+              <h5 className="font-medium leading-tight">キャリア証明書を作る</h5>
+            </span>
+          </li>
+          <li className="flex items-center dark:text-gray-400 space-x-2.5 rtl:space-x-reverse">
+            <span className="flex items-center justify-center w-8 h-8 border border-gray-500 rounded-full shrink-0 dark:border-gray-400">
+              3
+            </span>
+            <span>
+              <h5 className="font-medium leading-tight">企業からスカウトが届く</h5>
+            </span>
+          </li>
+        </ol>
       </div>
-      <div className="flex justify-between items-center mb-8">
-        <div className="text-lg font-semibold">Step 2: インストール</div>
-        <img src="/images/step2_image.png" alt="Step 2" className="w-32 h-auto" />
-      </div>
-      <div className="flex justify-between items-center">
-        <div className="text-lg font-semibold">Step 3: 設定</div>
-        <img src="/images/step3_image.png" alt="Step 3" className="w-32 h-auto" />
-      </div>
-
-    </div>
     </div>
   )
 }
