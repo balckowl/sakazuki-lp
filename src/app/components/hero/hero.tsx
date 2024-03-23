@@ -6,7 +6,7 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className='hero md:flex md:h-[450px]  gap-4 relative container'>
+        <div className='hero md:flex md:h-[450px]  gap-4 relative md:container'>
             <motion.div className="md:w-[50%] order-2 md:h-full hero-image">
                 {/* <img src="/images/hero/hero.jpg" alt="" className='md:h-full w-[100%] object-cover' /> */}
             </motion.div>
