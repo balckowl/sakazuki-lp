@@ -4,7 +4,6 @@ import Hero from "./components/hero/hero";
 import FirstSection from "./components/first-section/first-section";
 import Footer from "./components/footer/footer";
 
-
 export default function Home() {
   return (
     <div>
