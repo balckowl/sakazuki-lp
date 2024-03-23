@@ -3,7 +3,7 @@ import Compare from "./compare"
 
 const Service = () => {
   return (
-    <div className="pb-[100px]">
+    <div>
       {/* heading */}
       <div className="container">
         <div className="flex mb-6">
