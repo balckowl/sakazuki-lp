@@ -6,7 +6,7 @@ import { SubmitHandler, useForm } from "react-hook-form";
 import { z } from "zod";
 import { init, send } from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
-import "./inquiry.css";
+
 
 const formSchema = z.object({
   company: z.string().min(1, { message: "1文字以上で入力してください" }),
